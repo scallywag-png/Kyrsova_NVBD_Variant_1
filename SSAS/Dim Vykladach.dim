@@ -1,0 +1,226 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a831c83-b99f-4df8-97eb-4b5616603b2a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Vykladach</ID>
+  <Name>Dim Vykladach</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2452" scrolltop="-7907" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8724" y="15573" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc00009001153e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Vykladach" left="-1537" top="197" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3780" height="2752" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c40e0000c00a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Vykladach" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2452</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7907</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1537</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>197</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="196">
+            <Shape Id="Vykladach Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Vykladach Key" />
+                <Attribute Id="Posada" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="PІБ Vykladacha" Expanded="false">
+              <Attributes>
+                <Attribute Id="PІБ Vykladacha" />
+              </Attributes>
+              <Position x="270" y="20" />
+            </Shape>
+            <Shape Id="Kafedra" Expanded="false">
+              <Attributes>
+                <Attribute Id="Kafedra" />
+              </Attributes>
+              <Position x="270" y="75" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ed121e65-e16f-41a0-a91b-be074611aa65">
+    <DataSourceViewID>Student DW DB</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="7816555c-9096-4f00-89f3-1df4ca751d23">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1fe881e6-3704-4ae0-9d35-80cf7df988a2">
+      <ID>Vykladach Key</ID>
+      <Name>Vykladach Key</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>500</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="89151e31-0d3a-4282-8a5b-c4e7e0d0895d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a0b36b13-8c92-449f-94cd-2db90686a704">
+            <TableID>dbo_Dim_Vykladach</TableID>
+            <ColumnID>Vykladach_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="5b8c2ed0-8b8c-457e-8654-503f0527e78a">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a254c73e-3d72-4b5e-8a4f-21c9c37d0d69">
+          <TableID>dbo_Dim_Vykladach</TableID>
+          <ColumnID>PІБ_Vykladacha</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9ff17e09-fd4d-4b6d-bb0d-6867f35c6263">
+          <AttributeID>Posada</AttributeID>
+          <Name>Posada</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8a1c51b9-c895-4ae9-9839-fa979b95b1dc">
+          <AttributeID>Kafedra</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Kafedra</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0d2d044a-b45d-4bca-a545-9e5c683708c0">
+          <AttributeID>PІБ Vykladacha</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>PІБ Vykladacha</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e9f2f486-d2c8-43f1-b63a-8d8efae45840">
+      <ID>Posada</ID>
+      <Name>Posada</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="abe1ac57-e380-4a03-be8a-eab31201497d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68b55521-3ad8-43d6-ad39-f7857d32c63c">
+            <TableID>dbo_Dim_Vykladach</TableID>
+            <ColumnID>Posada</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bc9765ab-2a1e-4723-b5d0-87f879b1e802">
+      <ID>Kafedra</ID>
+      <Name>Kafedra</Name>
+      <EstimatedCount>19</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6e5ef2fa-4b78-4fe8-82e8-85763a94c8e9">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff871241-4983-42a4-8538-2607cd114d8e">
+            <TableID>dbo_Dim_Vykladach</TableID>
+            <ColumnID>Kafedra</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b74f9425-b7bd-4df9-b378-39b5ebc6ffb0">
+      <ID>PІБ Vykladacha</ID>
+      <Name>PІБ Vykladacha</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c4276805-6636-46e4-bb09-7b3adbb51dde">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65535b95-b14b-4cec-921b-78ff0068ded2">
+            <TableID>dbo_Dim_Vykladach</TableID>
+            <ColumnID>PІБ_Vykladacha</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="025fa3b6-ed8d-4b9f-a265-c20dd0a11d9b">
+      <ID>Hierarchy</ID>
+      <Name>Викладачі за кафедрами</Name>
+      <Levels>
+        <Level dwd:design-time-name="ae68f362-4331-4f98-a69a-83226fd2109e">
+          <ID>Kafedra</ID>
+          <Name>Kafedra</Name>
+          <SourceAttributeID>Kafedra</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="42dbc29b-e833-43e9-bd55-89c99e230f3c">
+          <ID>PІБ Vykladacha</ID>
+          <Name>PІБ Vykladacha</Name>
+          <SourceAttributeID>PІБ Vykladacha</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9cce8288-fa71-416e-95ba-65ef97cf18f6">
+          <ID>Vykladach Key</ID>
+          <Name>Vykladach Key</Name>
+          <SourceAttributeID>Vykladach Key</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

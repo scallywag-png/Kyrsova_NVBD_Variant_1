@@ -1,0 +1,778 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d64decd9-5c9b-457c-87f3-6c257ba393ec" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Student DW DB</ID>
+  <Name>Student DW DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4156" scrolltop="-648" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23843" y="15573" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc00009001153e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Group" left="5838" top="0" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="3205" height="2752" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000850c0000c00a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Group" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Otsinka" left="5913" top="5152" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="3054" height="4264" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000ee0b0000a8100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Otsinka" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="2664" top="11816" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="3372" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00002c0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Predmet" left="20" top="5908" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3493" height="2752" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a50d0000c00a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Predmet" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Student" left="11367" top="5152" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3689" height="4264" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000690e0000a8100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Student" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Vykladach" left="8436" top="11816" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3780" height="2752" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c40e0000c00a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Vykladach" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7041" top="2253" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Otsi__Group__5812160E]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7440" y="2752" />
+              <point x="7440" y="5152" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3213" top="6885" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Otsi__Predm__5629CD9C]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="15" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3513" y="7284" />
+              <point x="5913" y="7284" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3951" top="9116" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="2689" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Otsi__Time___59063A47]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4350" y="11816" />
+              <point x="4350" y="10616" />
+              <point x="6340" y="10616" />
+              <point x="6340" y="9416" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7690" top="9116" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3036" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Otsi__Vykla__5535A963]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10326" y="11816" />
+              <point x="10326" y="10616" />
+              <point x="7990" y="10616" />
+              <point x="7990" y="9416" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8667" top="6885" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Otsi__Stude__571DF1D5]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="20" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11367" y="7284" />
+              <point x="8967" y="7284" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4156</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-648</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="19a201cf-dc47-4fdb-97a8-543a3b755648">
+      <ID>Dim Predmet</ID>
+      <Name>Dim Predmet</Name>
+      <DimensionID>Dim Predmet</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9ba02e62-0a22-4de0-b8e0-bcaa69e6c57f">
+          <AttributeID>Predmet Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dcfc740b-2a3d-4865-a77d-0553507efcbc">
+          <AttributeID>Kafedra</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88b0e020-2f59-4bcf-a953-d9d12ca99694">
+          <AttributeID>Kilkist Kredytiv</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f1e0fe5d-f47d-4ca0-a35c-261d2786157c">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="60c3c97b-6434-4a1b-b838-6437eef77bcd">
+      <ID>Dim Group</ID>
+      <Name>Dim Group</Name>
+      <DimensionID>Dim Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a63511c3-79f5-40f5-a520-bfd096db7b54">
+          <AttributeID>Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc2c404c-196d-4196-bbdd-9b4deffee8be">
+          <AttributeID>Kurs</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8cb019d-713e-4470-9d58-694f9a27d4be">
+          <AttributeID>Fakultet</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="75174259-3f0f-413a-bc6c-5bf2fce90de0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b8688d3d-641e-4487-b3db-c8b287813ade">
+      <ID>Dim Time</ID>
+      <Name>Dim Time</Name>
+      <DimensionID>Dim Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="07df214d-5219-4f60-978e-0abf560aff1c">
+          <AttributeID>Time Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0a1ae47-62c7-42a5-aea7-039367a28c90">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be02130a-5aaf-4d99-98f7-18d7c30ee04f">
+          <AttributeID>Month Name Ukr</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="26e48488-fdbe-4c88-94e9-eb6fe9a6b7be">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1bd3801-fec1-4c54-a87c-92cc8c7ac8aa">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="945bc28b-41f7-4577-9ad9-81781951d3fc">
+          <AttributeID>Is Work Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="69b04f49-bda7-4f7c-a521-4360a0bdfbbf">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="785c4fb6-a601-4b84-b8b1-5f3b635afbfd">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="322ddc82-45f0-4fa8-b555-85307627d594">
+      <ID>Dim Vykladach</ID>
+      <Name>Dim Vykladach</Name>
+      <DimensionID>Dim Vykladach</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c6ad20cd-aecc-45c4-853c-79a3940584a7">
+          <AttributeID>Vykladach Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4010bf4c-981b-419c-a194-58ba5c8b0a77">
+          <AttributeID>Posada</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21212f6f-a12b-4c1d-aea1-48cd8b2c6ae3">
+          <AttributeID>Kafedra</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="041e1d5d-e15f-4996-9467-75abfc173e9c">
+          <AttributeID>PІБ Vykladacha</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e9358bcf-0069-4c8b-a123-0cc83f8c0b53">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ead2232d-0045-4f80-b1f5-381985ef462e">
+      <ID>Dim Student</ID>
+      <Name>Dim Student</Name>
+      <DimensionID>Dim Student</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="018e0c46-407d-4067-a583-9e01eed52af2">
+          <AttributeID>Student Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c01d3d3-7292-4092-9cba-a77bde8d9737">
+          <AttributeID>Adresa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8abba4d-87e7-4f8b-b52d-cebe7e4bfa18">
+          <AttributeID>Forma Navchannya</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57d9c233-2e27-488a-9484-7461a8542d7d">
+          <AttributeID>PІБ Studenta</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="affaf4d6-3b1a-4334-aced-d2b602547644">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="421708ed-6584-48d6-89a8-d3b91e9c6e5f">
+      <ID>Fact Otsinka</ID>
+      <Name>Fact Otsinka</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Type>Sales</Type>
+      <Measures>
+        <Measure dwd:design-time-name="eced972f-8b6d-4580-9ce5-a2a4a283bdc3">
+          <ID>Otsinka</ID>
+          <Name>Загальна сума балів</Name>
+          <Source dwd:design-time-name="74e87a32-543f-4127-848a-59e0435bd629">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4620966b-02b0-4137-bf1e-d68ebb1e0862">
+              <TableID>dbo_Fact_Otsinka</TableID>
+              <ColumnID>Otsinka</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f399adf7-2099-46c6-bc87-12f147086e2e">
+          <ID>Otsinka Bal</ID>
+          <Name>Otsinka Bal</Name>
+          <Source dwd:design-time-name="9286a5e6-00a7-44e0-b975-27eeacc62c88">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="761073ff-4655-43f9-9aa6-fd0b187836d4">
+              <TableID>dbo_Fact_Otsinka</TableID>
+              <ColumnID>Otsinka_Bal</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="94b20833-54d4-481b-9e2d-fdbddb43d6e0">
+          <ID>Fact Otsinka Count</ID>
+          <Name>Кількість оцінювань</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="458673e2-484a-420e-8eaa-be9ea1baf192">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="f80334f9-7fc4-4f03-901f-b0f4310be0a4">
+              <TableID>dbo_Fact_Otsinka</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e99384a8-2efd-4d91-8fdc-97fd128c967f">
+          <ID>Minimum Otsinka</ID>
+          <Name>Мінімальний бал</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="5724c9aa-505c-4aac-bff3-6374305e3878">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2bd28c43-932f-4a62-8b53-738b88e23245">
+              <TableID>dbo_Fact_Otsinka</TableID>
+              <ColumnID>Otsinka</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="64627f60-eec2-431c-aa1d-43e658cc59e3">
+          <ID>Maximum Otsinka</ID>
+          <Name>Максимальний бал</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="ed0f792d-875e-4ded-86f8-c0fe2eb2124a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c87be5b9-dd60-4c63-a832-2d726de6e734">
+              <TableID>dbo_Fact_Otsinka</TableID>
+              <ColumnID>Otsinka</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="90359368-502a-4a2b-94fb-ac5eede92763">
+          <ID>Otsinka 1</ID>
+          <Name>Середній бал</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="16500b8c-e919-4d5c-bcee-1ce7b2a1b495">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b2f3db0d-147a-4954-94bc-e7ffdcf13356">
+              <TableID>dbo_Fact_Otsinka</TableID>
+              <ColumnID>Otsinka</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>550000</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cff75f72-004c-4209-89b7-a68dc3ff4e51">
+          <CubeDimensionID>Dim Predmet</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2391839c-c6c1-4816-b143-bcbc68959429">
+              <AttributeID>Predmet Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b8f6b49-0bd1-4883-a1ad-ff1a430b8cf4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ad1a963d-54d0-4d66-9775-365cee5cdcf7">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Predmet_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="00f312fa-389f-48bc-a3e5-1164d54936b9">
+          <CubeDimensionID>Dim Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b06c504e-72fa-49a7-8717-63d857f4d230">
+              <AttributeID>Group Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="49d4a9e8-d45d-4c3e-a6c6-53451135de59">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1b8d5ff3-5b17-42f2-a3d2-82e7833bd566">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Group_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ec777bf0-e456-44ff-aaf8-c2b05acfadec">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4905c5b8-2fdc-4251-8fd7-06ee11d9b9bc">
+              <AttributeID>Time Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bdb58d51-c693-4ca2-bf70-72d163e6c7ba">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c1585948-314a-4ae5-8135-a0b32a9c2b74">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Time_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1fdfa224-7caa-4300-b6f6-5207b6459d46">
+          <CubeDimensionID>Dim Student</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="482d7d46-3a56-45e4-a0c9-01bd8089ae22">
+              <AttributeID>Student Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="47c5ba06-959a-4f95-9add-c642db8ba3a0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d501b1af-10ed-439c-8a54-7e697acc0402">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Student_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="431eb309-96ca-4a2e-a2e3-cb33cf5658e9">
+          <CubeDimensionID>Dim Vykladach</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e0799934-e57a-482a-8169-c24030093868">
+              <AttributeID>Vykladach Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="34c91c37-720f-40cd-afbc-9fcfa1980a08">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a1f9f0da-f7fa-4da8-afb3-1e905ec7e39f">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Vykladach_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+      <ProactiveCaching dwd:design-time-name="ca0d1b7a-169f-4a22-8a3e-c4bcabc62a92">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8548c7b3-0b60-40af-8f11-ef2d46c9b642">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="58f3e016-fbfc-4a06-bae8-c5cfb7088711">
+      <ID>Fact Otsinka 1</ID>
+      <Name>Fact Otsinka 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="07df287b-fe81-4e0a-8482-ade74832bcf6">
+          <ID>Student Key Distinct Count</ID>
+          <Name>Кількість унікальних студентів</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="62e8e257-10d8-4c52-b7f5-80ec3aedb0b2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b9a2cfbf-065a-4279-bdf5-42866ca3deff">
+              <TableID>dbo_Fact_Otsinka</TableID>
+              <ColumnID>Student_Key</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e6525e17-50cf-4990-9a77-a6c95e0100ba">
+          <CubeDimensionID>Dim Predmet</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6cc47e26-3d72-4fc9-a2be-db69fbe6d86e">
+              <AttributeID>Predmet Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="940a9f22-0511-4a9d-bc4d-a06d6e917188">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b6cdf0e3-31f3-43e8-be6f-bd06b258ae3c">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Predmet_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="506525a3-2bad-44c5-a8d4-b159aa42b818">
+          <CubeDimensionID>Dim Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7a5a1a6f-4164-4a0a-ad46-d8d1a75ea9e6">
+              <AttributeID>Group Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="93e6694e-627d-41d5-ab50-f3b61c48e58e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="daeb260d-82b3-432d-8b25-7315ce27bc5e">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Group_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="49d98744-0a38-43e5-9251-e6fecadcb4c8">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="52414a6e-6b97-4b53-bd61-57c99a177e43">
+              <AttributeID>Time Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4954fdd9-fe62-4ef9-98f3-4288f4042d09">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4fd9fb1-1d03-4156-b297-63ed71e28476">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Time_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f9b48482-ac29-4e83-b7b3-82f4bae4b623">
+          <CubeDimensionID>Dim Student</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="512ceade-feb2-4dc3-b3d1-fbcfe48cbd41">
+              <AttributeID>Student Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ecb8ad2a-3cd6-4b1d-a4e2-23ae6aaffc3e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f28e743f-61f4-4e07-b6dc-f5233f4efc02">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Student_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b28ca168-7dc3-40ea-a700-6008cb85a435">
+          <CubeDimensionID>Dim Vykladach</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="54428b16-f44a-4893-854f-8d51ed2aeea1">
+              <AttributeID>Vykladach Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2d288d01-9c1f-4194-9dca-74cdb1d8e9d2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="19741ccc-b67b-437b-bb3b-58e6a7bfee5f">
+                    <TableID>dbo_Fact_Otsinka</TableID>
+                    <ColumnID>Vykladach_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="0ea183b9-0be4-47eb-b710-46360a44064c">
+    <DataSourceViewID>Student DW DB</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="3af31298-c5d7-4ddc-a77e-ecdf83021d08">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;   
+
+/* 1. БАЗОВІ БІЗНЕС-МЕТРИКИ (12-БАЛЬНА СИСТЕМА) */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ефективність навчання]
+ AS [Measures].[Середній бал] / 12, 
+FORMAT_STRING = "Percent",
+VISIBLE = 1;   
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Частка від загальної суми]
+ AS [Measures].[Загальна сума балів] / ([Measures].[Загальна сума балів], [Dim Group].[Групи за факультетами].[All]), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;   
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Розмах оцінок]
+ AS [Measures].[Максимальний бал] - [Measures].[Мінімальний бал], 
+VISIBLE = 1;   
+
+/* 2. TIME INTELLIGENCE (ЧАСОВА АНАЛІТИКА) */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Бали YTD]
+ AS AGGREGATE(YTD([Dim Time].[Календар].CurrentMember), [Measures].[Загальна сума балів]), 
+VISIBLE = 1;   
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Бали минулого року]
+ AS ([Measures].[Загальна сума балів], PARALLELPERIOD([Dim Time].[Календар].[Year], 1, [Dim Time].[Календар].CurrentMember)), 
+VISIBLE = 1;   
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Темп зростання YoY]
+ AS IIF([Бали минулого року] = 0, NULL, ([Measures].[Загальна сума балів] - [Бали минулого року]) / [Бали минулого року]), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;   
+
+/* 3. RANKING (РЕЙТИНГИ) */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Позиція в рейтингу]
+ AS RANK(
+  [Dim Student].[Студенти за формою навчання].CurrentMember,
+  ORDER(
+    [Dim Student].[Студенти за формою навчання].Members,
+    [Measures].[Загальна сума балів],
+    BDESC
+  )
+), 
+VISIBLE = 1;   
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Топ-5 студентів]
+ AS IIF(
+  [Measures].[Позиція в рейтингу] &lt;= 5,
+  [Measures].[Загальна сума балів],
+  NULL
+), 
+VISIBLE = 1;   
+
+/* 4. MOVING AVERAGE (КОВЗНЕ СЕРЕДНЄ) */
+CREATE MEMBER CURRENTCUBE.[Measures].[Ковзне середнє (3 міс)]
+ AS AVG(
+    /* Беремо останні 3 місяці від того місяця, що зараз у рядку звіту */
+    LASTPERIODS(3, [Dim Time].[Календар].CurrentMember),
+    [Measures].[Середній бал]
+ ), 
+FORMAT_STRING = "#.##", 
+VISIBLE = 1;
+
+/* 5. СПЕЦИФІЧНІ БІЗНЕС-ПОКАЗНИКИ */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Навантаження викладача]
+ AS [Measures].[Кількість оцінювань], 
+FORMAT_STRING = "#,##0", 
+NON_EMPTY_BEHAVIOR = { [Кількість оцінювань] },
+VISIBLE = 1;  
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Рівень успішності (прапорець)]
+ AS IIF([Measures].[Середній бал] &gt;= 10, 1, 0), 
+VISIBLE = 1;  
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Відсоток відмінних оцінок]
+ AS COUNT(
+    FILTER(
+        DESCENDANTS([Dim Student].[Студенти за формою навчання].CurrentMember, [Dim Student].[Студенти за формою навчання].[РІБ Studenta]),
+        [Measures].[Середній бал] &gt;= 10
+    )
+ ) / [Measures].[Кількість оцінювань], 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="ba58a23c-5621-489d-8dfd-8f23e5ccfebe">
+      <ID>KPI</ID>
+      <Name>KPI Ефективність</Name>
+      <Value>[Measures].[Середній бал]</Value>
+      <Goal>10</Goal>
+      <Status>Case
+  When KpiValue("KPI Ефективність") &gt;= 10 Then 1
+  When KpiValue("KPI Ефективність") &gt;= 7 Then 0
+  Else -1
+End</Status>
+      <Trend>Case  
+  When KpiValue("KPI Ефективність") &gt; (KpiValue("KPI Ефективність"), PARALLELPERIOD([Dim Time].[Календар].[Year], 1, [Dim Time].[Календар].CurrentMember)) Then 1
+  When KpiValue("KPI Ефективність") = (KpiValue("KPI Ефективність"), PARALLELPERIOD([Dim Time].[Календар].[Year], 1, [Dim Time].[Календар].CurrentMember)) Then 0
+  Else -1
+End</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>
